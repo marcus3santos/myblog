@@ -1,0 +1,29 @@
+#+title: Blogging with Emacs Org mode (I)
+#+date: <2020-08-25 Tue>
+#+filetags: github org-mode orgmode emacs template sample
+#+setupfile: ../org-templates/post.org
+
+** Preamble
+
+This idea of creating a blog came about as one of those instances of
+the tail wagging the dog. I explain: I am not an avid blog reader and
+I am definitely not a blog writer. But I admire all things Lisp, Emacs
+and org mode. Therefore, when I came across an article on how to
+blog with Emacs org mode I jumped on it.
+
+** Steps to set up a simple blog and host it locally
+
+To get a simple blog set up in org-mode all you have to do is to
+follow the steps described in Sections /Basic Steps/ to /Tweak the
+sitemap/ (inclusive) of this [[https://opensource.com/article/20/3/blog-emacs][how-to guide]]. I am not going to repeat
+them here. Just visit the link above and get your simple blog set up.
+
+Notice that by following those steps you will set up and experiment
+with a very simple blog, hosted locally (i.e., not yet available on
+the web). The next sections in that article show how you can extend
+your basic blog, and I will address that in part II of this article.
+
+
+
+
+

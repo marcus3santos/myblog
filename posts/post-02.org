@@ -1,0 +1,66 @@
+#+title: Tried-and-True "Old Fashioned" Bread Recipe
+#+date: <2020-08-25 Tue>
+#+filetags: github org-mode orgmode emacs template sample
+#+setupfile: ../org-templates/post.org
+
+* Preamble
+
+Full disclosure: the recipe below is inspired on the recipe listed on
+page 25 of the [[https://biz.regalware.com/pub/docs/Breadmaker_Books/K6760_Breadmaker_Guide_Cookbook.PDF][Regal breakmaker guide cookbook]], under the title /Old
+Fashioned/.
+
+Although the original recipe is provided in a bread maker cookbook, I
+conjecture that you should be able to make bread from the recipe
+variation I provide here, without using an electric bread maker. That
+is, you could either use an electric dough mixer, or knead the
+dough by hand, roughly according to the timings mentioned on page 9 of
+the above cookbook. I say roughly because your hands are a more effective tool
+to knead dough than the break maker machine. Therefore, it might not
+require as much time as listed on page 9 of the cookbook.
+
+I myself use the bread maker just to knead the dough and let it rise
+according to those timings of the cookbook. Once the dough is ready
+for the final rise, I remove it from the machine, divide it, shape it
+into buns, let them rise for one last time, then bake them in a normal
+kitchen oven.
+
+* Materials
+
+- large bowl where you will knead the dough; if you are using a cake/bread mixer, that would be the mixer bowl
+- 500 ml glass container 
+- kitchen scale
+- electrical bread/cake mixer
+- Two baking trays
+
+* Ingredients
+
+- 350 ml of milk
+- 1 tablespoon of sugar
+- 2 teaspoons of fresh east (If you buy fresh east, I suggest you freeze it in an ice cube tray. That way, 2 teaspoons amounts to one ice cube sized frozen fresh east)
+- 1 egg
+- 1 tablespoon of oil
+- 500 grams of wheat flower
+
+* Method
+
+1. Pour the milk in the glass container, put the east and the sugar in it, and warm it up in the microwave oven for 40 seconds (until the milk is lukewarm, like fresh blood).
+2. Mix well and let it rest for 7 minutes (the east will start its work; you will see bubbles forming in the milk)
+3. Put the other ingredients in the mixer bowl, then add the milk.
+4. Put the mixer to knead the dough (or do it by hand) and let it rise according to the timings shown column labeled 'Sweet' of the table shown in page 9 of the [[https://biz.regalware.com/pub/docs/Breadmaker_Books/K6760_Breadmaker_Guide_Cookbook.PDF][Regal breakmaker guide cookbook.]] 
+5. If you want to add raisins or other chopped dried fruits to the dough, do so according to the timing shown in row 'Time to Fruit/Nut Signal' of the aforementioned table.
+6. When it is time to 'Punch Down' the dough, turn on the oven for one minute, just to make it warm. Turn the oven off.
+7. Remove the dough from the mixer, dust a clean table with wheat flower, knead the dough a bit by hand, then divide it into 4 equal portions.
+8. Roll each portion into a bun or long baguette.
+9. Put the buns/baguettes on the baking trays and insert them in the oven for their final rise. Leave them there for one hour. Notice: the oven must be turned off.
+10. Remove the trays from the oven. Heat the oven to 380F.
+11. Insert the trays in the oven and let the loaves bake for 30 minutes.
+12. Remove the loaves from the oven and let them cool down. To cool your loaves properly you need to transfer your loaves from the oven to a wire cooling rack, and let them rest until they have cooled to about body temperature. 
+
+Below is a picture of the final product.
+
+#+ATTR_HTML: :class black-border
+[[http://www.cs.ryerson.ca/m3santos/public/images/posts/post-02/pao.png]]
+
+
+
+
