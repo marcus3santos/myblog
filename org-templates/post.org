@@ -1,4 +1,0 @@
-#+AUTHOR: Marcus Santos
-#+OPTIONS: toc:nil
-#+HTML_DOCTYPE: xhtml-strict
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="./css/site.css" />
