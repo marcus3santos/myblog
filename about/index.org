@@ -1,0 +1,11 @@
+#+title: About
+#+filetags: about
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../css/site.css" />
+
+
+My career is deeply rooted in Computer Engineering. I was born and raised in Brazil, and obtained my Phd in Artificial Intelligence at the Universidade de São Paulo.
+
+Since 1999, I have taught Computer Science to thousands of students at Ryerson. My prime interest is Artificial Intelligence and Genetic Programming.
+
+In 2014, I was appointed Associate Dean, Undergraduate Programs and Student Affairs – a role that combines my passion for both the academic and human sides of education.
+
