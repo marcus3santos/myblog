@@ -6,10 +6,11 @@ f#+title: Compiling hardware using Lisp
 The motivation for this work originated from a conversation with
 Costa, where he suggested the idea of using Lisp as the host language
 for High-Level Synthesis (HLS) of digital circuits, i.e., compiling
-hardware from Lisp. The idea, in his words, was to develop "a 'smart' type inference system for Lisp, one that given a value, could determine the
-type of register where to store that value."  To get a proof of
-concept quickly, we would piggyback on something that is already
-working. 
+hardware from Lisp. The idea, in his words, was to develop "a 'smart'
+type inference system for Lisp, one that given a value, could
+determine the type of register where to store that value."  To get a
+proof of concept quickly, we would piggyback on something that is
+already working.
 
 In light of the above, the aims and objectives of my research are the
 following:
@@ -28,7 +29,7 @@ following:
     - Lisp in Small Pieces
     - [[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.9203&rep=rep1&type=pdf][The Nimble Type Inferencer for Common Lisp-84]]
     - [[https://dl-acm-org.ezproxy.lib.ryerson.ca/doi/pdf/10.1145/322169.322181][A Scheme for the Automatic Inference of Variable Types]]
-    - 
+    
 
 
 - Objectives (How I am going to achieve my aims)
