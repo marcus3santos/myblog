@@ -14,8 +14,8 @@
   <link>http://example.com/</link>
   <description><![CDATA[]]></description>
   <language>en</language>
-  <pubDate>Sun, 01 Nov 2020 18:12:54 -0500</pubDate>
-  <lastBuildDate>Sun, 01 Nov 2020 18:12:54 -0500</lastBuildDate>
+  <pubDate>Sat, 05 Dec 2020 17:17:14 -0500</pubDate>
+  <lastBuildDate>Sat, 05 Dec 2020 17:17:14 -0500</lastBuildDate>
   <generator>Emacs 27.1 Org-mode 9.3.7</generator>
   <webMaster>marcussantos@MacBook-Air.local (Marcus Santos)</webMaster>
   <image>
@@ -25,6 +25,10 @@
   </image>
 
   <ul class="org-ul">
+    <li><p>
+      <b><a href="compiling-hardware-in-lisp.html">compiling-hardware-in-lisp</a></b>
+    </p>
+    <p class='pubdate'>by Marcus Santos on Nov 10, 2020.</p></li>
     <li><p>
       <b><a href="post-04.html">Investigating the Internet using Lisp</a></b>
     </p>

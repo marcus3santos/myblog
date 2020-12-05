@@ -1,5 +1,7 @@
 #+TITLE: Blog Index
 
+- *[[file:compiling-hardware-in-lisp.org][compiling-hardware-in-lisp]]*
+  #+html: <p class='pubdate'>by Marcus Santos on Nov 10, 2020.</p>
 - *[[file:post-04.org][Investigating the Internet using Lisp]]*
   #+html: <p class='pubdate'>by Marcus Santos on Oct 13, 2020.</p>
 - *[[file:post-03.org][Pão de Queijo Recipe]]*
