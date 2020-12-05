@@ -1,0 +1,93 @@
+f#+title: Compiling hardware using Lisp
+#+date: <2020-11-10>
+#+keywords: draft
+#+setupfile: ../org-templates/post.org
+
+The motivation for this work originated from a conversation with
+Costa, where he suggested the idea of using Lisp as the host language
+for High-Level Synthesis (HLS) of digital circuits, i.e., compiling
+hardware from Lisp. The idea, in his words, was to develop "a 'smart' type inference system for Lisp, one that given a value, could determine the
+type of register where to store that value."  To get a proof of
+concept quickly, we would piggyback on something that is already
+working. 
+
+In light of the above, the aims and objectives of my research are the
+following:
+- Aims (what I intend to achieve): 
+  - investigate the development of a multi-level language, based on
+    Lisp, for high-level synthesis of digital circuits. 
+  - Learn how to hack SBCL. This post from [[https://pvk.ca/Blog/2013/04/13/starting-to-hack-on-sbcl/][Paul Khuong]] provides the essentials
+  - Learn the fundamentals of Lisp compilers' construction --
+    references:
+    - [[https://www.cs.cmu.edu/~ram/pub/lfp.ps][The Python Compiler for CMU Common Lisp]]
+      Dynamic type inference is done using data flow analysis to solve
+      a variant of the constant propagation problem (see [[https://dl.acm.org/doi/pdf/10.1145/103135.103136][Wegman's]]
+      paper to learn how constant propagation can be used to do Lisp
+      type inference)
+    - [[http://www.doc.gold.ac.uk/~mas01cr/papers/s32008/sbcl.pdf][SBCL: a Sanely-Bootstrappable Common Lisp]]
+    - Lisp in Small Pieces
+    - [[https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.39.9203&rep=rep1&type=pdf][The Nimble Type Inferencer for Common Lisp-84]]
+    - [[https://dl-acm-org.ezproxy.lib.ryerson.ca/doi/pdf/10.1145/322169.322181][A Scheme for the Automatic Inference of Variable Types]]
+
+
+- Objectives (How I am going to achieve my aims)
+  - 
+  
+
+We envisioned two directions, both involving adapting the
+type inference system of a Lisp compiler to our needs:
+- Get [[https://github.com/nuprl/softscheme.git][Softscheme]], a compiler implemented by Andrew Wright, working on
+  a modern scheme compiler and adapting its type inference system.
+- Extend SBCL's compiler and type inference to suit our needs.
+
+After weeks of trying, I was unable to get Softscheme up and running
+on a modern Scheme compiler (Bigloo, ChezScheme, and Racket); Andrew's
+code had proven beyond my reach. I then decided to put that to rest
+until I find a student willing and able to tackle this problem.
+
+Next, I started working on the other alternative: finding a way to leverage the type inference system of a Lisp compiler. 
+
+Modern Lisp compilers all have some form of type inference, but I dare
+say that Steel Bank Common Lisp (SBCL) is the only one that does type
+inference efficiently. However, as of this writing, there is scarce
+documentation on the SBCL's type inference system interface and
+internals. 
+
+
+#+BEGIN_QUOTE
+Make sure they are SMART. 
+
+1. Specific: talk in a precise and clear way about what you are going to do.
+2. Measurable: how will you know when you have achieved your aim?
+3. Achievable: make sure that you aren’t overly ambitious.
+4. Realistic: recognise the time and resource constraints that come with doing a PhD and don’t attempt to do too much.
+5. Time constrained: determine when each objective needs to be completed.
+#+END_QUOTE
+
+
+
+And here is a tentative plan for the work, considering that
+we will adapt the type inference system of a Lisp compiler to suit our
+needs:
+1. Position this work with respect to the current related research. Readings:
+  - A Golden Age of Hardware Description Languages: Applying
+    Programming Language Techniques to Improve Design Productivity
+  - Multi-stage language in hardware design
+  - High-Level Synthesis: Past, Present, and Future.
+  - Where does the work of [[https://opensource.googleblog.com/2014/03/steel-bank-common-lisp-wrap-up-post-new.html][Alexandra Barchunova and Paul Khuong]] on
+    iterative spilling/coloring register alocator fits in this
+    context?  Answer: Their work is related to compiler
+    infrastructure, viz. compiler optimization, as such, this type of
+    work is of critical importance because new ideas in HDLs will see
+    no practical use unless they can be compiled into high performance
+    implementations.
+2. Understand the fundamentals of Lisp compiler construction and
+   infrastructure: because this work will involve developing compiler
+   infrastructue, be it optimizing a Lisp compiler or extending a Lisp
+   type inference system.
+
+
+
+
+
+#+INCLUDE: "../disquss.inc"
